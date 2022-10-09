@@ -1,0 +1,259 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Ms+Madi&display=swap" rel="stylesheet"> */
+*{
+  box-sizing: border-box;
+
+}
+
+body{
+  margin: 0;
+}
+.site-title{
+  font-size: 220%;
+  object-fit:fill !important;
+  overflow-x: hidden;
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Ms Madi', cursive; */
+}
+.nav{
+  background-color: #333;
+  color: white;
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  justify-content: space-between;
+  /* align-items: stretch;  */
+  
+  padding: 0 1rem;
+  /* height: 50px; */
+}
+
+.searchbar1{
+  object-fit:contain;
+  overflow-x: hidden;
+  /* padding-left: 100%; */
+    margin-top: 14px;
+  margin-left: -40%;
+  /* text-align: center; */
+}
+
+#searchbar{
+  /* width: 100%;    */
+  height: 75%;
+  border-radius: 12px;
+  
+}
+
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  /* font-size: 25px; */
+}
+.nav ul{
+  /* padding: 10%; */
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+
+.nav li.active{
+  background-color: rgb(162, 150, 160);
+}
+
+.nav li:hover{
+  background-color: #777;
+}
+
+.homepage{
+  display: grid;
+  grid-template-columns: 15% 60% 25%;
+  background-color:  #f2eaea;
+}
+
+
+.link{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.homemain ol{
+  font-size: 25px;
+}
+.mainlink{
+  color: rgb(20, 20, 234);
+  text-decoration: none;
+  height: 100%;
+  font-size: 25px;
+  
+}
+
+.date{
+  font-size: 12px;
+}
+
+.contributedby{
+  font-size: 12px;
+}
+
+.linkcontaint{
+  padding: 15px;
+  font-size: 16px;
+}
+.footerh{
+  height: 200px;
+  background-color: #333;
+  color: white;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.left{
+  
+  padding: 15px;
+
+}
+
+.right{
+ 
+  padding: 15px;
+  
+} 
+.profilepage{
+display: grid;
+grid-template-columns: 25% 50% 25%;
+background-color:  #f2eaea;
+
+}
+.profile{
+  box-shadow: 4px 3px 8px 1px #0f0d0d;
+ margin: 10px;
+ padding: 20px;
+ border-radius: 3%;
+ background-color:  whitesmoke;
+}
+
+
+.profileimg{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+.temp{
+  text-align: center;
+  font-size: 15px;
+  
+
+}
+#contribution{
+  font-size: 20px;
+  font-weight: bold;
+  /* text-align: center; */
+}
+.contributions{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.contributions ul{
+  list-style-type: none;
+  /* text-align: center; */
+  padding-left: -200px;
+  
+}
+
+.mainlink1{
+  text-decoration: none;
+  font-size: 20px;
+  padding: left -200px;
+  
+  
+}
+
+.addsite2{
+  text-align: center;
+  margin-top: 15px;
+}
+ textarea{
+  max-width: 70% !important;
+ }
+#addsite3{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px;
+  
+  font-weight: bold;
+  color: white;
+
+  /* border-radius: 5%; */
+  background-color:#1b1b1ca7;
+
+
+}
+.adduppage{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  background-color:  #f2eaea;
+}
+
+.addsite1{
+  box-shadow: 4px 3px 8px 1px #0f0d0d;
+  margin-top: 10%;
+  margin-bottom: 26%;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 120px;
+  border-radius: 3%;
+  background-color:  whitesmoke;
+}
+
+.label1{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input1{
+  margin-left: 40px;
+  
+}
+
+#submit{
+  text-align: center;
+}
+
+#submit1{
+  background-color:#1b1b1ca7;
+  font-weight: bold;
+  color:  white;
+  /* border-radius: 12%; */
+}
+
+.footerlink{
+  text-decoration: none;
+  color: inherit;
+}

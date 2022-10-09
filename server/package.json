@@ -1,0 +1,25 @@
+{
+  "name": "webhub",
+  "version": "1.0.0",
+  "description": "Hub of all websites",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "twilio": "^3.82.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webhub",
+    "websites"
+  ],
+  "author": "Vishal Kumar Sahu",
+  "license": "ISC"
+}
